@@ -18,14 +18,14 @@ We will see the actual raw traffic being transmitted between the 2 virtual machi
 •	Microsoft Server 2022
 
 ## What the following screenshots will show?
-1.	Go over steps to install Active Directory Domain Services
+## Setup Active Directory
+1.	How to install Active Directory Domain Services
 2.	How to promote server to a domain controller
-3.	How to Setup Active Directory
-4.	How to Create Administrative User
-5.	How to Create a new user
-6.	How to Create an Organizational Unit
-7.	How to Join a user to the domain
-8.	How to reset network passwords
+3.	How to Create Administrative User
+4.	How to Create a new user
+5.	How to Create an Organizational Unit
+6.	How to Join a user to the domain
+7.	How to reset network passwords
 
 ## 1.  Steps to Install Active Directory Domain Services
 ### To start installing Active Directory, click on "Start" and click on "Server Manager" in order to get to the following page:
@@ -88,5 +88,45 @@ We will see the actual raw traffic being transmitted between the 2 virtual machi
 
 ![alt text](https://i.imgur.com/QIkiHkC.png)
 
+## This turns the Active Directory server into a domain controller.
 
+![alt text](https://i.imgur.com/oLmVe6W.png)
 
+## Here, we're going to "add" a new forest and give the new domain a name, as shown above.
+
+![alt text](https://i.imgur.com/hp3akMP.png)
+
+## Create a domain password.
+
+![alt text](https://i.imgur.com/RZjPvIu.png)
+
+## Click "Next".
+
+![alt text](https://i.imgur.com/lhBeY7C.png)
+
+## Click "Next".
+
+![alt text](https://i.imgur.com/Zedfkn8.png)
+
+## Click "Next".
+
+![alt text](https://i.imgur.com/3fYyfqB.png)
+
+## Click "Next".
+
+![alt text](https://i.imgur.com/Sg5M7bj.png)
+
+## Click on "Install", as shown above
+
+![alt text](https://i.imgur.com/DoQYtSL.png)
+
+## Installing...........
+
+![alt text](https://i.imgur.com/eF61JeB.png)
+
+## Restarting...........
+
+## This installation is finished...........
+
+## 3.  How to create "Administrative User"
+### After "Active Directory completes the installation, focus on the "upper right corner" of screen, as shown below:
