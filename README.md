@@ -21,9 +21,9 @@ We will see the actual raw traffic being transmitted between the 2 virtual machi
 ## Setup Active Directory
 1.	How to install Active Directory Domain Services
 2.	How to promote server to a domain controller
-3.	How to Create Administrative User
+3.	How to Create an Organizational Unit
 4.	How to Create a new user
-5.	How to Create an Organizational Unit
+5.	How to Turn a "New User" into an "Administrative User"
 6.	How to Join a user to the domain
 7.	How to reset network passwords
 
@@ -128,5 +128,53 @@ We will see the actual raw traffic being transmitted between the 2 virtual machi
 
 ## This installation is finished...........
 
-## 3.  How to create "Administrative User"
-### After "Active Directory completes the installation, focus on the "upper right corner" of screen, as shown below:
+## 3.  How to create an "Organizational Unit"
+## The following shows how to access "Active Directory Users and Computers", as shown below:
+## To create an "Organizational Unit" 
+
+![alt text](https://i.imgur.com/oorwsET.png)
+
+## Click on "Active Directory Users and Computers" and see "Tester'sDomain.com", as shown below.
+
+![alt text](https://i.imgur.com/vIgbbdg.png)
+
+## Right-click on "Tester'sDomain.com" and go down to "New" and over to "Organizational Unit", as shown below.
+
+![alt text](https://i.imgur.com/lE5Gtsh.png)
+
+## Create a new "Organizational Unit" called, "_ADMINS" and click "OK", as shown below.
+
+![alt text](https://i.imgur.com/ddqkWJw.png)
+
+## To create a "new" user withing the "_ADMINS" folder, start by "selecting" the "ADMINS" folder, as shown below.
+
+![alt text](https://i.imgur.com/UYvlfFy.png)
+
+## Finished!!
+
+## 4.  How to create a "New User"
+
+## Create the "New User" by "right-clicking" on "_ADMINS" and go down to "New" and over to "User", as shown below.
+
+![alt text](https://i.imgur.com/R6T7ahm.png)
+
+## Click on "User" to start filling in the user information and then click on "Next", as shown below.
+
+![alt text](https://i.imgur.com/EkZE5F5.png)
+
+## Next, create a password and then click "Next", as shown below.
+
+![alt text](https://i.imgur.com/xK9ZLba.png)
+
+## Now, click "Finish" to complete the task.
+
+![alt text](https://i.imgur.com/W5jg4wD.png)
+
+## Now, here's the "new user" finally completed, as shown below.
+
+![alt text](https://i.imgur.com/15ly75T.png)
+
+## Finished!..........
+
+## 5.	How to Turn a "User" into an "Administrative User"
+
