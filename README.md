@@ -24,8 +24,7 @@ We will see the actual raw traffic being transmitted between the 2 virtual machi
 3.	How to Create an Organizational Unit
 4.	How to Create a new user
 5.	How to Turn a "New User" into an "Administrative User"
-6.	How to Join a user to the domain
-7.	How to reset network passwords
+6.	How to unlock an account and reset a network passwords
 
 ## 1.  Steps to Install Active Directory Domain Services
 ### To start installing Active Directory, click on "Start" and click on "Server Manager" in order to get to the following page:
@@ -224,4 +223,27 @@ We will see the actual raw traffic being transmitted between the 2 virtual machi
 
 ![alt text](https://i.imgur.com/GpPd2fL.png)
 
-## 6.	How to Join a user to the domain
+## 6.	How to unlock an account and reset a network passwords
+
+## Access the "Active Directory Users and Computers" and afterwards, selecct a user located in the "Employees" folder .
+## Right-click on the user and go down to "Properties", as shown below.
+
+![alt text](https://i.imgur.com/EoU8rVv.png)
+
+## Click on the "Account" tab and hit "OK".
+
+![alt text](https://i.imgur.com/OyHWIjH.png)
+
+## To "Unlock" the account, add a check mark to the "Unlock account" box and hit "OK", as shown below.
+
+![alt text](https://i.imgur.com/RGoWcaJ.png)
+
+## To "Reset" a user's password, right-click on the user's account and go up to "Reset Password", as shown below.
+
+![alt text](https://i.imgur.com/hu0IS5X.png)
+
+## Create a new password for the user and hit "OK", as shown below.
+
+![alt text](https://i.imgur.com/G36Qf7y.png)
+
+## Finished!...........
