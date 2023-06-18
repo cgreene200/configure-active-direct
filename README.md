@@ -90,7 +90,7 @@ We will see the actual raw traffic being transmitted between the 2 virtual machi
 
 ## This turns the Active Directory server into a domain controller.
 
-![alt text](https://i.imgur.com/oLmVe6W.png)
+![alt text](https://i.imgur.com/BZZ2dif.png)
 
 ## Here, we're going to "add" a new forest and give the new domain a name, as shown above.
 
@@ -134,13 +134,13 @@ We will see the actual raw traffic being transmitted between the 2 virtual machi
 
 ![alt text](https://i.imgur.com/oorwsET.png)
 
-## Click on "Active Directory Users and Computers" and see "Tester'sDomain.com", as shown below.
+## Click on "Active Directory Users and Computers" and see "carole'sdomain.com", as shown below.
 
-![alt text](https://i.imgur.com/vIgbbdg.png)
+![alt text](https://i.imgur.com/L6kGD68.png)
 
-## Right-click on "Tester'sDomain.com" and go down to "New" and over to "Organizational Unit", as shown below.
+## Right-click on "carole'sdomain.com" and go down to "New" and over to "Organizational Unit", as shown below.
 
-![alt text](https://i.imgur.com/lE5Gtsh.png)
+![alt text](https://i.imgur.com/K2OSDU2.png)
 
 ## Create a new "Organizational Unit" called, "_ADMINS" and click "OK", as shown below.
 
@@ -148,7 +148,7 @@ We will see the actual raw traffic being transmitted between the 2 virtual machi
 
 ## To create a "new" user withing the "_ADMINS" folder, start by "selecting" the "ADMINS" folder, as shown below.
 
-![alt text](https://i.imgur.com/UYvlfFy.png)
+![alt text](https://i.imgur.com/yYYEbil.png)
 
 ## Finished!!
 
@@ -160,7 +160,7 @@ We will see the actual raw traffic being transmitted between the 2 virtual machi
 
 ## Click on "User" to start filling in the user information and then click on "Next", as shown below.
 
-![alt text](https://i.imgur.com/EkZE5F5.png)
+![alt text](https://i.imgur.com/U0WqkaA.png)
 
 ## Next, create a password and then click "Next", as shown below.
 
@@ -178,3 +178,50 @@ We will see the actual raw traffic being transmitted between the 2 virtual machi
 
 ## 5.	How to Turn a "User" into an "Administrative User"
 
+![alt text](https://i.imgur.com/15ly75T.png)
+
+## Select the "User" account that is being elevated to "Administrator" status, as shown above.
+
+![alt text](https://i.imgur.com/shKaoOQ.png)
+
+## Right-click on the account and go down to "Properties", as shown above.
+
+![alt text](https://i.imgur.com/15ly75T.png)
+
+## Within the user's "Properties", go to the top and select the "Member Of" tab and click "OK", as shown below.
+
+![alt text](https://i.imgur.com/76Z30Ll.png)
+
+## Within "Member Of" tab, click on "Domain Users" and then hit "OK", as shown below.
+
+![alt text](https://i.imgur.com/Jo98usU.png)
+
+## Type "Domain" and then click "OK", as shown below.
+
+![alt text](https://i.imgur.com/2VjOCVx.png)
+
+## Type "Domain" and click "OK", as shown below.
+
+![alt text](https://i.imgur.com/zOkbFUX.png)
+
+## Multiple "Domain" options were found, as shown above.
+
+![alt text](https://i.imgur.com/TjToa04.png)
+
+## Select "Domain Admins" and click on "OK", as shown above.
+
+![alt text](https://i.imgur.com/4Q69PMV.png)
+
+## Click "OK" to select the "Domain Admins" group.
+
+![alt text](https://i.imgur.com/RLtECKl.png)
+
+## Click "Add" and then "OK", as shown below.
+
+![alt text](https://i.imgur.com/ZDcZuM1.png)
+
+## Finished!!.......this administrative user has been created, as shown below.
+
+![alt text](https://i.imgur.com/GpPd2fL.png)
+
+## 6.	How to Join a user to the domain
